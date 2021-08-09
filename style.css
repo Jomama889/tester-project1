@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Raleway";
+}
+
+body {
+}
+
+style {
+  --color-purple: rgba(95, 44, 144, 0.741);
+  --color-blue: rgb(84, 200, 206);
+  --color-green: rgb(184, 247, 147);
+}
+
+html {
+  background-image: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header {
+  position: relative;
+  color: rgba(95, 44, 144, 0.741);
+  font-size: 50px;
+  background-color: rgb(84, 200, 206);
+  opacity: 0.9;
+  width: 70%;
+  margin: (5px 5px 5px 5px);
+  text-align: center;
+  display: block;
+  margin: auto;
+  border-style: solid;
+  border-color: blueviolet;
+  box-shadow: 0px 0px 20px 10px rgba(95, 44, 144, 0.741),
+    0 6px 6px rgba(250, 248, 252, 0.741);
+}
+
+#animation {
+  animation-name: fly-in;
+  animation-duration: 2s;
+}
+
+.header:hover {
+  background-color: rgb(184, 247, 147);
+  transform: scale(1.1);
+}
+
+.container2 {
+  position: relative;
+  left: 50px;
+  top: 50px;
+  width: 30%;
+  color: rgba(95, 44, 144, 0.741);
+  font-size: 20px;
+  background-color: rgb(84, 200, 206);
+  opacity: 0.8;
+  padding: 0px 20px 0px 20px;
+  display: block;
+  text-align: justify;
+  border-style: solid;
+  border-color: blueviolet;
+  box-shadow: 0 10px 20px rgba(95, 44, 144, 0.741),
+    0 6px 6px rgba(95, 44, 144, 0.741);
+}
+
+.container2:hover {
+  background-color: rgb(184, 247, 147);
+  transform: scale(1.1);
+}
+
+.container3 {
+  position: relative;
+  right: 50px;
+  width: 20%;
+  color: rgba(95, 44, 144, 0.741);
+  font-size: 20px;
+  background-color: rgb(84, 200, 206);
+  opacity: 0.9;
+  padding: 0px 20px 0px 20px;
+  display: block;
+  text-align: justify;
+  float: right;
+  width: 40%;
+  border-style: solid;
+  border-color: blueviolet;
+  box-shadow: 0 10px 20px rgba(95, 44, 144, 0.741),
+    0 6px 6px rgba(95, 44, 144, 0.741);
+}
+
+.container3:hover {
+  background-color: rgb(184, 247, 147);
+  transform: scale(1.1);
+}
+
+.container4 {
+  position: relative;
+  left: 50px;
+  top: 100px;
+  width: 20%;
+  color: rgba(95, 44, 144, 0.741);
+  font-size: 20px;
+  background-color: rgb(84, 200, 206);
+  opacity: 0.9;
+  padding: 0px 20px 0px 20px;
+  display: block;
+  float: left;
+  text-align: justify;
+  border-style: solid;
+  border-color: blueviolet;
+  box-shadow: 0 10px 20px rgba(95, 44, 144, 0.741),
+    0 6px 6px rgba(95, 44, 144, 0.741);
+}
+
+.container4:hover {
+  background-color: rgb(184, 247, 147);
+  transform: scale(1.1);
+}
+
+.footer {
+  position: absolute;
+  right: 50px;
+  bottom: 10px;
+}
+
+@keyframes fly-in {
+  0% {
+    left: 2%;
+  }
+  50% {
+    left: 10%;
+  }
+
+  100% {
+    left: 0%;
+  }
+}
